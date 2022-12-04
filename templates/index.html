@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+        <!-- Removed cover image for now -->
+        <!--
+        <div id="banner">
+            <img src="{{ url_for('static', filename='banner.jpg') }}" alt="Rhodes on the Pawtuxet, Samantha Wainapel"/>
+        </div>
+        -->
+
+        <div>
+            <h1>Quick Ballroom Links</h1>
+
+            <p>
+                <h3><a class="nav-link" href="/dances">Dance Syllabi</a></h3>
+                Lists of syllabus-legal figures.<br>
+            </p>
+
+            <p>
+                <h3><a class="nav-link" href="/ycn">Info About YCN Points</a></h3>
+                A quick guide to the YCN point system.<br>
+            </p>
+
+            <p>
+                <h3><a class="nav-link" href="/entries">Event Heat Sheets</a></h3>
+                Check registration for upcoming competitions.<br>
+            </p>
+
+            <h3>Individual Results Lookup</h3>
+            Enter a competitor's first and last name to retreive their results.
+            <p>
+                <form action="https://results.o2cm.com/individual.asp?">
+                    First Name: <input name="szFirst" id="name1"><br>
+                    Last Name: <input name="szLast" id="name2"><br>
+                    <input type="submit" value="Search">
+                </form>
+            </p>
+
+            <h1>&#x1F483  &#x1F57A</h1>
+        </div>
+{% endblock %}

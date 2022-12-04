@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    American Viennese Waltz
+{% endblock %}
+
+{% block main %}
+    <h1>American Viennese Waltz</h1>
+
+    <h3>At all levels, the follower is permitted to curtsey before taking hold, as an intro.</h3>
+    <div>
+        <table>
+            <!-- BRONZE FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB01">Natural Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB02">Reverse Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB03">Change Step (Forward)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB04">Change Step (Backward)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB05">Underarm Turn from Cross Body Lead</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1vB06">Butterfly</button>
+                </form>
+            </div>
+            <!-- SILVER FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1vS01">???</button>
+                </form>
+            </div>
+            <!-- GOLD FIGURES
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG01">Shadow Twinkles</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG02">Heel Pull & Heel Pull Hairpins</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG03">Syncopated Turning Shadow Figures</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG04">Syncopated Chasses, Runs and Locks</button>
+                </form>
+            </div>
+            -->
+        </table>
+    </div>
+
+{% endblock %}

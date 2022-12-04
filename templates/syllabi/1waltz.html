@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    American Waltz
+{% endblock %}
+
+{% block main %}
+    <h1>American Waltz</h1>
+
+    <div>
+        <table>
+            <!-- BRONZE FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB01">Natural Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB02">Reverse Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB03">Forward Progressive/Change Step</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB04">Underarm Turn to the Right</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB05">Fifth Position Breaks</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB06">Closed Twinkle</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB07">Natural Spin Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB08">Syncopated Chasse</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB09">Grapevine</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1wB10">Butterfly</button>
+                </form>
+            </div>
+            <!-- SILVER FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1wS01">Natural Turn (Continuity)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1wS02">Reverse Turn (Continuity)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1wS03">Develop&#233;</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1wS04">Weave</button>
+                </form>
+            </div>
+            <!-- GOLD FIGURES
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG01">Shadow Twinkles</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG02">Heel Pull & Heel Pull Hairpins</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG03">Syncopated Turning Shadow Figures</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG04">Syncopated Chasses, Runs and Locks</button>
+                </form>
+            </div>
+            -->
+        </table>
+    </div>
+
+{% endblock %}
