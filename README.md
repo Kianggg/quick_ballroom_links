@@ -1,4 +1,4 @@
-WHAT:\n
+WHAT:</br>
 This is a website made to compile a bunch of useful information and links for collegiate ballroom dancers.
 On this site, users may look up their individual competition results (using data from a website called o2cm, which is infamously difficult to navigate).
 They may also view useful information about the YCN "points" system and entries for upcoming competitons.
@@ -10,7 +10,7 @@ Right now, there's just a running Pikachu. It is a placeholder.
 That said, I am very excited about this project and I aim to film the remaining three styles of dance figures over the break.
 This could be an amazing resource for newer dancers!
 
-HOW:/n
+HOW:</br>
 This is a dynamic website created using Flask, Jinja, and Python, as in the final problem set of this class.
 Currently, it is not hosted anywhere, so to view the porject, one must run Flask from the command line.
 To do this, unzip the folder, then navigate to the opened folder in the terminal.
@@ -31,8 +31,8 @@ Currently, only the first 4 are complete.
 Clicking on one of these buttons will lead to a page that displays Bronze-level and Silver-level figures.
 Click on one of those buttons to view the instructional gif.
 
-WHO:
-Me\n
-using Flask, Jinja, Python, and Bootstrap\n
-using data from o2cm\n
+WHO:</br>
+Me</br>
+using Flask, Jinja, Python, and Bootstrap</br>
+using data from o2cm</br>
 using the dance syllabus of the NDCA (national Dance Council of America)
