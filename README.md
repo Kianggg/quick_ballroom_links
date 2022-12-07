@@ -1,3 +1,7 @@
+WHERE:</br>
+Here on github!
+    https://github.com/Kianggg/quick_ballroom_links
+
 WHAT:</br>
 This is a website made to compile a bunch of useful information and links for collegiate ballroom dancers.
 On this site, users may look up their individual competition results (using data from a website called o2cm, which is infamously difficult to navigate).
