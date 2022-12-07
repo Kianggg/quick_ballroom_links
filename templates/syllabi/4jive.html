@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    American Foxtrot
+{% endblock %}
+
+{% block main %}
+    <h1>American Foxtrot</h1>
+
+    <div>
+        <table>
+            <!-- BRONZE FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB01">Forward Basic</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB02">Backward Basic</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB03">Rock Step</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB04">Promenade</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB05">Promenade with Underarm Turn</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn1" name="figure" type="submit" value="1fB06">Grapevine</button>
+                </form>
+            </div>
+            <!-- SILVER FIGURES -->
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1fS01">Natural Turn (Continuity)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1fS02">Reverse Turn (Continuity)</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1fS03">Twinkles</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1fS04">Butterfly</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn2" name="figure" type="submit" value="1fS05">Develop&#233;</button>
+                </form>
+            </div>
+            <!-- GOLD FIGURES
+            <div>
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG01">Shadow Twinkles</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG02">Heel Pull & Heel Pull Hairpins</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG03">Syncopated Turning Shadow Figures</button>
+                </form>
+
+                <form action="/dances" method="post">
+                    <button class="button btn3" name="figure" type="submit" value="1wG04">Syncopated Chasses, Runs and Locks</button>
+                </form>
+            </div>
+            -->
+        </table>
+    </div>
+
+{% endblock %}
