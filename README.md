@@ -16,7 +16,7 @@ This could be an amazing resource for newer dancers!
 
 HOW:</br>
 This is a dynamic website created using Flask, Jinja, and Python, as in the final problem set of this class.
-Currently, it is not hosted anywhere, so to view the porject, one must run Flask from the command line.
+Currently, it is not hosted anywhere, so to view the project, one must run Flask from the command line.
 To do this, unzip the folder, then navigate to the opened folder in the terminal.
 Execute:
 venv/Scripts/activate
